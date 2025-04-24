@@ -1,7 +1,9 @@
 #include <iostream>
 #include "raylib.h"
+#include "Program.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Program();
+    return 0;
 }

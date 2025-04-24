@@ -1,4 +1,4 @@
-This project was created with Visual Studio 2022 Community Edition
+This project was created with **Visual Studio 2022 Community Edition** and should work with it out of the box.
 
 This project requires Raylib installed from **vcpkg**. The installation process is included below.
 
