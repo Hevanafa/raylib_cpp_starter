@@ -35,11 +35,11 @@ To test if you have Raylib correctly installed, add this line anywhere at the to
 
 ## Copying assets to the build folder
 
-This project has these command lines included under **Build Events > Post-Build Event**
+This project has these command lines included under **Project Properties > Build Events > Post-Build Event**
 
 ```powershell
-md assets
-xcopy /y /d $(ProjectDir)assets $(OutDir)
+md $(OutDir)assets
+xcopy /y /d $(ProjectDir)assets $(OutDir)assets
 ```
 
 You can add more files and folders as needed.
