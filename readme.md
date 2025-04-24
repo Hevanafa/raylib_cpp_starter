@@ -1,7 +1,32 @@
 This project was created with Visual Studio 2022 Community Edition
 
-Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-Debug program: F5 or Debug > Start Debugging menu
+This project requires Raylib installed from **vcpkg**. The installation process is included below.
+
+**Run program:** Ctrl + F5 or Debug > Start Without Debugging menu
+**Debug program:** F5 or Debug > Start Debugging menu
+
+
+## Installing Raylib from vcpkg
+
+1. Open https://github.com/microsoft/vcpkg
+2. Clone **vcpkg** in the root `C:` drive or any drive that is convenient to you
+3. Open `powershell`
+4. Navigate to the **vcpkg** directory from step 2
+5. Run `.\bootstrap-vcpkg.bat`
+6. Run `.\vcpkg.exe integrate install`
+7. Finally, run `.\vcpkg.exe install raylib:x64-windows`
+
+To test if you have Raylib correctly installed, add this line anywhere at the top of `main.cpp`:
+
+```c++
+#include "raylib.h"
+```
+
+
+## TODO: Include the sample code
+
+It should have an image loaded & the EXE icon changed
+
 
 ## Tips for Getting Started
 
