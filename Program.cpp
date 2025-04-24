@@ -9,6 +9,10 @@ Program::Program() {
     raylib = LoadTextureFromImage(temp);
     UnloadImage(temp);
 
+    temp = LoadImage("assets/images/raylib_tiny.png");
+    SetWindowIcon(temp);
+    UnloadImage(temp);
+
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {

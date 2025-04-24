@@ -23,11 +23,6 @@ To test if you have Raylib correctly installed, add this line anywhere at the to
 ```
 
 
-## TODO: Include the sample code
-
-It should have an image loaded & the EXE icon changed
-
-
 ## Tips for Getting Started
 
 1. Use the Solution Explorer window to add/manage files
